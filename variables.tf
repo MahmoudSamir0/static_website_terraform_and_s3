@@ -1,0 +1,4 @@
+variable "index" {
+  type=string
+}
+
