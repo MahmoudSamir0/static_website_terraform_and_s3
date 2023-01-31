@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "staticweb" {
-  bucket = "my-static-website-123456789" #change name  and add your account id 
+  bucket = "my-static-website-123456789" #change name 
   acl    = "public-read"
 
   tags = {
